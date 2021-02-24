@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  scroll-behavior: smooth;
+  --black: #0F0A0A;
+  --green: #42E2B8;
+  --orange-gradient: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+}
+
+body {
+  font-family: Oxygen;
+  background-image: var(--orange-gradient);
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  border: 1px solid red;
+  width: 100%;
+}
+
+/* NAV LOGO CURRICULUM */
+
+.hero-top {
+  margin: 30px auto 83px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-top .logo {
+  position: absolute;
+  left: 0;
+}
+
+.hero-top .logo a {
+  font-family: Poppins;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 39px;
+  color: var(--black);
+}
+
+.hero-top .nav {
+  margin: auto;
+}
+
+.hero-top .nav .nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list-item {
+  margin: 0 20px;
+}
+
+.nav-list-item>a {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.btn-curriculum {
+  background: var(--green);
+  width: 225px;
+  height: 40px;
+  font-weight: 700;
+  color: var(--black);
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+  text-align: center;
+  border: 2px solid var(--black);
+  box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  border-radius: 90px;
+  position: absolute;
+  right: 0;
+}
+
+/* SALUDO PERSONA SOCIAL */
