@@ -121,7 +121,7 @@ header {
   margin: 16px auto;
   font-weight: 400;
   letter-spacing: 0.5%;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 26px;
 }
 
@@ -164,4 +164,44 @@ header {
 
 .wrapper {
   border: 1px solid red;
+  width: 100%;
+  max-width: 100vw;
+}
+
+.coment {
+  margin: 200px auto;
+  max-width: 780px;
+  text-align: center;
+}
+
+.coment-title {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 55px;
+}
+
+.coment-title span {
+  margin: 24px auto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: center;
+}
+
+.arrow-projects img {
+  animation-name: arrowProjects;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition: all .3s ease-in-out;
+  margin: 30px auto 0 auto;
+}
+
+@keyframes arrowProjects {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(0px);
+  }
 }
