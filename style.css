@@ -164,12 +164,11 @@ header {
 
 .wrapper {
   border: 1px solid red;
-  width: 100%;
-  max-width: 100vw;
+  max-width: 100%;
 }
 
 .coment {
-  margin: 200px auto;
+  margin: 220px auto;
   max-width: 780px;
   text-align: center;
 }
@@ -204,4 +203,89 @@ header {
   to {
     transform: translateY(20px);
   }
+}
+
+/* PROYECTOS */
+
+.projects{
+  border: 1px solid blue;
+}
+
+/* LEONIDAS */
+.leonidas-esteban{
+  border: 1px solid blue;
+  padding: 25px 0;
+  margin: 0 30px;
+}
+
+.project-leonidas{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid brown;
+  max-width: 100%;
+}
+
+/* imagen del proyecto Leonidas Esteban */
+.project-leonidas .project-leonidas-image{
+  width: 50%;
+  object-fit: cover;
+  border: 1px solid blue;
+}
+
+/* data del proyecto Leonidas Esteban */
+.data-project-leonidas{
+  border: 1px solid blue;
+}
+
+.data-project-leonidas .btn-leonidas{
+  border-radius: 0;
+  border: none;
+  background: var(--black);
+  box-shadow: -4px 4px 0px #FFFFFF;
+  margin-bottom: 20px;
+  padding: 4px 8px;
+}
+
+.data-project-leonidas .btn-leonidas a{
+  color: var(--green);
+  font-family: Oxygen;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.data-project-leonidas p{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.5%;
+  margin-bottom: 16px;
+}
+
+.data-project-leonidas .btn{
+  border: 2px solid var(--black);
+  box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 90px;
+  margin: 0px 16px 0px 16px;
+  width: 165px;
+  height: 45px;
+}
+.btn a{
+   width: 100%;
+}
+
+.data-project-leonidas .btn-project{
+  background: var(--green);
+}
+
+.data-project-leonidas .btn-project a{
+  color: var(--black);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: Oxygen;
+  font-style: normal;
+  text-align: center;
 }
