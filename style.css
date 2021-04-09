@@ -272,9 +272,6 @@ header {
   width: 165px;
   height: 45px;
 }
-.btn a{
-   width: 100%;
-}
 
 .data-project-leonidas .btn-project{
   background: var(--green);
